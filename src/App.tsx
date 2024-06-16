@@ -1,12 +1,8 @@
 import "./App.css";
-import { MenuComponent } from "./components/Layout/MenuComponent/MenuComponent";
+import { RoutesMain } from "./routes/RoutesMain";
 
 function App() {
-  return (
-    <>
-      <MenuComponent />
-    </>
-  );
+  return <RoutesMain />;
 }
 
 export default App;
