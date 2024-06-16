@@ -5,7 +5,7 @@ import { Error } from "../components/pages/Error";
 import { Profile } from "../components/pages/Profile";
 import { Recipes } from "../components/pages/Recipes";
 
-export const RouterApp = () => {
+export const RoutesMain = () => {
   return (
     <BrowserRouter>
       <Routes>
