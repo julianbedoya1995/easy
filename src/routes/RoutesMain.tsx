@@ -4,10 +4,12 @@ import { Categories } from "../components/pages/Categories";
 import { Error } from "../components/pages/Error";
 import { Profile } from "../components/pages/Profile";
 import { Recipes } from "../components/pages/Recipes";
+import { MenuComponent } from "../components/Layout/MenuComponent/MenuComponent";
 
 export const RoutesMain = () => {
   return (
     <BrowserRouter>
+      <MenuComponent />
       <Routes>
         <Route path="/" element={<Feed />} />
         <Route path="/feed" element={<Feed />} />
