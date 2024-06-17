@@ -1,3 +1,9 @@
+import { ShowRecipes } from "../../../helpers/ShowRecipes"
+
 export const Feed = () => {
-  return <></>;
+  return (
+    <>
+      <ShowRecipes />
+    </>
+  );
 };
