@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { Menu } from "../components/Layout/menu/Menu";
+import { Menu } from "../components/layout/menu/Menu";
 import { Feed } from "../components/pages/feed/Feed";
 import { Calendar } from "../components/pages/calendar/Calendar";
 import { Profile } from "../components/pages/profile/Profile";
