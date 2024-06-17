@@ -4,7 +4,7 @@ import "./Menu.css";
 export const Menu = () => {
   const routes = [
     { url: "/", name: "Inicio" },
-    { url: "calendario", name: "Categorías" },
+    { url: "calendario", name: "Calendario" },
     { url: "mi-perfil", name: "Perfil" },
   ];
 
