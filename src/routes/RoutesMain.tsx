@@ -11,7 +11,7 @@ export const RoutesMain = () => {
         <Route path="/" element={<Feed />} />
         <Route path="/feed" element={<Feed />} />
         <Route path="/calendario" element={<Calendar />} />
-        <Route path="/mi-perfil" element={<Profile />} />
+        <Route path="/perfil" element={<Profile />} />
         <Route path="*" element={<Error />} />
       </Routes>
     </>
