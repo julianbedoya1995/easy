@@ -1,21 +1,22 @@
 import { NavLink } from "react-router-dom";
+import { RoutesMain } from "../../../routes/RoutesMain";
 import "./Menu.css";
 
 export const Menu = () => {
-  const routes = [
-    { url: "/", name: "Inicio" },
-    { url: "calendario", name: "Calendario" },
-    { url: "mi-perfil", name: "Perfil" },
-  ];
+  const routes = RoutesMain().props.children.props.children;
 
   return (
     <nav>
       <ul>
-        {routes.map(({ url, name }) => (
-          <li key={url}>
-            <NavLink to={url}>{name}</NavLink>
-          </li>
-        ))}
+        {routes.map(
+          (route: { props: { path: string } }) =>
+            route.props.path !== "/" &&
+            route.props.path !== "*" && (
+              <li key={route.props.path}>
+                <NavLink to={route.props.path}>{route.props.path.split("/")}</NavLink>
+              </li>
+            )
+        )}
       </ul>
     </nav>
   );
