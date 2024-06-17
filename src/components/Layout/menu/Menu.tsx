@@ -1,10 +1,10 @@
 import { NavLink } from "react-router-dom";
-import "./MenuComponent.css";
+import "./Menu.css";
 
-export const MenuComponent = () => {
+export const Menu = () => {
   const routes = [
-    { url: "feed", name: "Feed" },
-    { url: "categorias", name: "Categorias" },
+    { url: "/", name: "Inicio" },
+    { url: "calendario", name: "Categorías" },
     { url: "mi-perfil", name: "Perfil" },
   ];
 
