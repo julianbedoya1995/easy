@@ -1,12 +1,19 @@
 nav {
   display: flex;
-  height: 100px;
+  height: 120px;
+  margin: auto;
   gap: 1rem;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
 
-  img {
-    width: 70px;
+  div{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+  
+    img {
+      width: 70px;
+    }
   }
 
   ul {
@@ -14,6 +21,9 @@ nav {
     gap: 1rem;
     li {
       a {
+        font-weight: 900;
+        letter-spacing: 1px;
+        color: var(--green);
         text-transform: capitalize;
       }
     }
