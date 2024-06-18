@@ -7,6 +7,7 @@ export const Menu = () => {
 
   return (
     <nav>
+      <img src="logo.svg" alt="Logo de easyfood" />
       <ul>
         {routes.map(
           (route: { props: { path: string } }) =>

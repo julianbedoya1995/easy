@@ -1,4 +1,14 @@
 nav {
+  display: flex;
+  height: 120px;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+
+  img {
+    width: 70px;
+  }
+
   ul {
     display: flex;
     gap: 1rem;
