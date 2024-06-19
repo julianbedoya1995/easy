@@ -1,7 +1,6 @@
 import { RoutesMain } from "./routes/RoutesMain";
 import { Menu } from "./components/layout/menu/Menu";
 import { useLocation } from "react-router-dom";
-import { Search } from "./components/layout/search/Search";
 
 function App() {
   const location = useLocation();
