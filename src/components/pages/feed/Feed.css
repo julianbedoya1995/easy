@@ -1,12 +1,16 @@
 section {
   display: grid;
   width: 90%;
+  height: 100dvh;
   margin: auto;
   margin-top: 10px;
-  gap: 1rem;
+  padding: 20px 0;
+  gap: 23px;
   grid-template-columns: repeat(auto-fit, minmax(250px, 250px));
+  align-items: start;
   justify-content: center;
   border-radius: 10px;
+  box-shadow: 0 4px 8px 0 var(--shadow2), 0 6px 20px 0 var(--shadow19);
 
   article {
     display: grid;
