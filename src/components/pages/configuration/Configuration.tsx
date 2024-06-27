@@ -1,5 +1,5 @@
 import { User } from "../../../helpers/User";
-
+import "./Configuration.css"
 export const Configuration = () => {
    const propUser = User()
     return (
